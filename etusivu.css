@@ -1,0 +1,128 @@
+body {
+background: #000000;
+color: #ffff60;
+margin: 10px auto;
+font-family: Calibri;
+display: flex;
+justify-content: center;
+}
+
+#container {
+margin: 0 auto 0 auto;
+width: 1000px;
+height: auto;
+}
+
+#header {
+width: 1000px;
+height: 100px;
+padding: 10px;
+border-radius: 10px;
+background: #222222;
+margin: 10px auto;
+box-shadow: 5px 5px 10px #1a1a1a;
+font-family: Rockwell;
+}
+
+#navbar {
+width: auto;
+height: auto;
+display: flex;
+}
+
+a {
+text-decoration: none;
+color: #ffffff;
+
+}
+
+li {
+padding: 10px 50px;
+display: inline-block;
+vertical-align: middle;
+justify-content: center;
+color: #ddddff;
+width: 60px;
+text-decoration: none;
+}
+
+li:hover {
+background: #444444;
+
+}
+
+td.2 {
+  border: 1px solid #ffffff;
+  padding: 3px;
+}
+
+table.2 {
+border-radius: 5px;
+border: 1px solid #ffffff;
+}
+
+textarea {
+  width: 300px;
+  height: 5em;
+}
+
+#main {
+width: 1000px;
+height: 500px;
+padding: 10px;
+border-radius: 10px;
+background: #222222;
+margin: 10px auto;
+scroll-behavior: auto;
+overflow-y: scroll;
+box-shadow: 5px 5px 10px #1a1a1a;
+}
+
+#sidebar {
+  width: 100%;
+  min-height: 200px;
+  padding: 10px;
+  border-radius: 10px;
+  background: #222222;
+  margin: 10px auto;
+  box-shadow: 5px 5px 10px #1a1a1a;
+}
+
+#footer {
+width: 100%;
+height: 100px;
+text-align: center;
+padding: 10px;
+border-radius: 10px;
+background: #222222;
+margin: 10px auto;
+box-shadow: 5px 5px 10px #1a1a1a;
+font-family: Rockwell;
+}
+
+.nappi {
+border: 1px solid #000000;
+border-radius: 3px;
+padding: 3px 8px;
+color: #aaaadd;
+background: linear-gradient(#222222, #000000);
+}
+
+#palautteet {
+  overflow: auto;
+}
+
+hr {
+  color: #ffffff;
+}
+
+@media screen and (max-width: 700px) {
+
+#container, #header, #main, #sidebar, #footer {
+  width: 100%;
+  max-width: 1000px;
+  box-shadow: none;
+}
+
+
+}
