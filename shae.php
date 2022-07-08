@@ -20,7 +20,7 @@ echo "<p>Yhteensä " . $lkm . " annettua vastausta tällä hetkellä.</p>";
 
 while ($row = $query->fetch_assoc()) {
 
-			     $rivit[] = $row;
+	$rivit[] = $row;
 
             }
 
@@ -34,17 +34,17 @@ while ($row = $query->fetch_assoc()) {
 
                 }
 
-								$arr = array();
+			$arr = array();
 
-								foreach ($rivit2 as $x => $rivi2) {
+			foreach ($rivit2 as $x => $rivi2) {
 
-									$arr[$x] = $rivit[$x]['ruoka'];
+				$arr[$x] = $rivit[$x]['ruoka'];
 
-								}
+			}
 
-								$numerot = array_count_values($arr);
+			$numerot = array_count_values($arr);
 
-								arsort($numerot);
+			arsort($numerot);
 
 if (isset(array_keys($numerot)[0])) {
 $ruoka1 = array_keys($numerot)[0];
